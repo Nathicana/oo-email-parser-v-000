@@ -15,10 +15,6 @@ def parse
     people = data.collect do |row|
 
       email = emails.flatten
-
-    end
 end
-
-
-
+end
 end
