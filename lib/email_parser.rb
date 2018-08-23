@@ -14,12 +14,12 @@ def parse
     data = emails.split(", ")
     people = data.collect do |row|
 
-      email = emails.unique
+      email = emails
       #person = self.new
 
       #person
     end
-    #people
+    email.unique
   end
 
 
