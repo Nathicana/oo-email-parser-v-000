@@ -12,7 +12,7 @@ end
 def parse
     
     data = emails.split(", ")
-    people = rows.collect do |row|
+    people = data.collect do |row|
 
       email = email[0]
       person = self.new
