@@ -7,7 +7,6 @@ class EmailParser
 attr_accessor :emails
 
 
-
 def parse
     rows = emails.split("\n")
     people = rows.collect do |row|
