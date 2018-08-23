@@ -8,7 +8,7 @@ attr_accessor :emails
 
 
 
-def parse(emails)
+def parse
     rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
