@@ -18,7 +18,6 @@ def parse
     people = rows.collect do |row|
       data = row.split(", ")
       email = email[0]
-binding.pry
       person = self.new
       person.email = email
       person
