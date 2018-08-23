@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 
-def parse(emails)
+def parse
     rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
