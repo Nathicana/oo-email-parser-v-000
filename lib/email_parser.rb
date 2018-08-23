@@ -11,7 +11,7 @@ end
 
 def parse
 
-    data = emails.split(/, */)
+    data = emails.split(/\s*,\s*/)
     people = data.collect do |row|
 
       email = emails
