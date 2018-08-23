@@ -11,7 +11,7 @@ end
 
 def parse
 
-    data = emails.split(", ")
+    data = emails.split(',').map(&:strip)
     people = data.collect do |row|
 
       email = emails
