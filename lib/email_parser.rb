@@ -15,7 +15,7 @@ def parse
     people = data.collect do |row|
 
       email = emails
-    
+
     end
 end
 
