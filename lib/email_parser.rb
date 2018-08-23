@@ -11,8 +11,8 @@ def initialize(emails)
 end
 
 
-def parse
-    rows = csv_data.split("\n")
+def parse(emails)
+    rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
       email = email[0]
