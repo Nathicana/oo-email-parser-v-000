@@ -10,7 +10,7 @@ def initialize(emails)
 end
 
 def parse
-
+    binding.pry
     rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
