@@ -12,9 +12,9 @@ end
 def parse
 
     data = emails.split(',')
-    people = data.collect do |row|
+    people = data.collect do |email|
 
-      email = emails.flatten
+      email = emails.uniq
 end
 end
 end
