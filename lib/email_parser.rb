@@ -11,9 +11,9 @@ end
 
 def parse
     binding.pry
-    rows = emails.split("\n")
+    data = row.split(", ")
     people = rows.collect do |row|
-      data = row.split(", ")
+
       email = email[0]
       person = self.new
       person.email = email
