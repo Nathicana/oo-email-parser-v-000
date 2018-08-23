@@ -13,12 +13,12 @@ def initialize(emails)
 end
 
 def parse
-  binding.pry
+
     rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
       email = email[0]
-
+binding.pry
       person = self.new
       person.email = email
       person
