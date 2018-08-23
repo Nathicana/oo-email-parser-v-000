@@ -17,7 +17,7 @@ def parse
       data = row.split(", ")
       email = email[0]
 
-      person = self.new 
+      person = self.new
       person.email = email
       person
     end
