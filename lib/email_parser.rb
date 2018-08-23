@@ -14,7 +14,7 @@ def parse
     data = emails.split(',')
     people = data.collect do |email|
 
-      email = emails.uniq
-end
+      
+end.flatten.uniq
 end
 end
