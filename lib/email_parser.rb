@@ -17,7 +17,7 @@ def parse
       email = emails
     #  person = self.new
 
-    #  person.email = email
+      person.email = email
     #  person
     end
     #people
