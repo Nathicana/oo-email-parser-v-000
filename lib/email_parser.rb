@@ -14,7 +14,7 @@ def parse
     rows = emails.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
-      email = email[0]
+      email = email
 
       person = self.new
       person.email = email
