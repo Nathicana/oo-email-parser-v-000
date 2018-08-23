@@ -15,12 +15,12 @@ def parse
     people = data.collect do |row|
 
       email = emails
-    #  person = self.new
+      person = self.new
 
       person.email = email
-    #  person
+      person
     end
-    #people
+    people
   end
 
 
