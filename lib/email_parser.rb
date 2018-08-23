@@ -11,9 +11,8 @@ end
 
 def parse
 
-    data = emails.split(',')
-    people = data.collect do |email|
-
+    emails.split.map do |email|
+      email.split(',')
 
 end.flatten.uniq
 end
